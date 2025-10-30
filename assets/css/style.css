@@ -1,0 +1,28 @@
+/*font import merriweather*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87.5,300..900;1,18..144,87.5,300..900&display=swap');
+
+
+/*font variations 300 to 900*/
+.merriweather-font-value {
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+        font-size:1.2rem;
+}
+
+/*body*/
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    background-color: #f5f5f5;
+    color: #333333;
+    background-image: url("../../assets/images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #a4be5c;
+}
