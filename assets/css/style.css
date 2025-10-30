@@ -11,6 +11,12 @@
         "wdth" 100;
         font-size:1.2rem;
 }
+.alm {
+  font-family: "Almendra SC", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
 
 /*body*/
 body {
@@ -25,4 +31,24 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #a4be5c;
+}
+.text-box-main-page h1{
+    position: absolute;
+    text-shadow:#333333 2px 2px 4px;
+    font-size: 5rem;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(249, 246, 246);
+    text-align: center;
+}
+.text-box-main-page p{
+    position: absolute;
+    text-shadow:#333333 2px 2px 4px;
+    font-size: 2rem;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(249, 246, 246);
+    text-align: center;
 }
