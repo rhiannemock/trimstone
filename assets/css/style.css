@@ -92,6 +92,19 @@ footer iframe{
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
+.albert-image{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .ilfracombe-image{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
 /*Hotel rooms page styles*/
