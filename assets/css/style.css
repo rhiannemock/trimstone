@@ -106,5 +106,19 @@ footer iframe{
     margin-top: 20px;
     margin-bottom: 20px;
   }
+  .woolacombe-image{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .valley-of-rocks-image{
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
 /*Hotel rooms page styles*/
