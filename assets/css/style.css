@@ -21,15 +21,16 @@
   font-family: "Almendra SC", serif;
   font-weight: 600;
   font-style: normal;
-  color: #e9bd2e;
+  color:#ae8625;
   font-size:3rem;
   text-shadow:#080000 1px 1px 2px;
 }
+
 .subheading{
   font-family: "Almendra SC", serif;
   font-weight: 600;
   font-style: normal;
-  color: #e9bd2e;
+  color: #ae8625;
   font-size:1.5rem;
   text-shadow:#080000 1px 1px 2px;
 }
@@ -50,7 +51,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #efcf2c;
+    background-color: #ae8625;
 }
 .text-box{
     margin-top: 50px;
@@ -59,6 +60,7 @@ body {
     color: #ffffff;
     text-align: center;
     background-color: #222222;
+    
     border-radius: 10px;
     padding: 10px;
     box-shadow: #040404 3px 3px 6px;
