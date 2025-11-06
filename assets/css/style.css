@@ -16,8 +16,8 @@
 
 .gold-heading{
   font-family:"Almendra SC", serif;
-  font-size:80px;
-  font-weight:900;
+  font-size:50px;
+  font-weight:700;
   background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%, #ae8625 80%);
   -webkit-background-clip:text;
   background-clip:text;
@@ -26,8 +26,8 @@
 }
 .gold-subheading{
   font-family:"Almendra SC", serif;
-  font-size:40px;
-  font-weight:700;
+  font-size:25px;
+  font-weight:500;
   background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%, #ae8625 80%);
   -webkit-background-clip:text;
   background-clip:text;
