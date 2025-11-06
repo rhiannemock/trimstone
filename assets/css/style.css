@@ -122,5 +122,12 @@ footer div{
     margin-bottom: 20px;
     box-shadow: #ae8625 1px 1px 1px 1px;
   }
-
+video .manor-video{
+    width: 80vw;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: #ae8625 1px 1px 1px 1px;
+}
 /*Hotel rooms page styles*/
