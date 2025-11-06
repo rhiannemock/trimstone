@@ -18,7 +18,7 @@
   font-family:"Almendra SC", serif;
   font-size:50px;
   font-weight:700;
-  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%, #ae8625 80%);
+  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%);
   -webkit-background-clip:text;
   background-clip:text;
   color:transparent;
@@ -120,14 +120,13 @@ footer div{
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: #ae8625 1px 1px 1px 1px;
   }
-video .manor-video{
-    width: 80vw;
-    height: auto;
-    border-radius: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    box-shadow: #ae8625 1px 1px 1px 1px;
+
+.gold-frame{
+  border:2px solid #d2ac47;
+  box-shadow:0 0 0 5px #ae8625, 0 0 0 7px #b7973f,  0 0 0 8px #edc967;
+  padding:2px;
 }
+
+
 /*Hotel rooms page styles*/
