@@ -13,7 +13,7 @@
   font-weight: 400;
   font-style: normal;
 }
-
+/*heading styles*/
 .gold-heading{
   font-family:"Almendra SC", serif;
   font-size:50px;
@@ -40,15 +40,15 @@
 }
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link {
-    color: #f7ef8a !important;
+    color: #d2ac47 !important;
 }
 .custom-navbar ~ .offcanvas .offcanvas-header {
-    background-color: #222222; 
+    background-color: #222222 !important; 
 }
 .custom-navbar ~ .offcanvas .offcanvas-title {
-    color: #f7ef8a; 
+    color: #d2ac47 !important; 
 }
-
+/*paragraph styles*/
 p{
   margin:0;
   padding:0;
@@ -77,7 +77,7 @@ body {
     background-color:transparent;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: #ae8625 1px 2px 1px 2px;
+    box-shadow: #ae8625 1px 1px 1px 1px;
 }
 iframe{
   border:2px solid white;
