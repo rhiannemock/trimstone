@@ -28,11 +28,25 @@
   font-family:"Almendra SC", serif;
   font-size:25px;
   font-weight:500;
-  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%, #ae8625 80%);
+  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60% );
   -webkit-background-clip:text;
   background-clip:text;
   color:transparent;
   text-shadow:2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255,255,255,0.2);
+}
+/*custom navbar settings*/
+.custom-navbar {
+    background-color: #222222 !important; 
+}
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: #f7ef8a !important;
+}
+.custom-navbar ~ .offcanvas .offcanvas-header {
+    background-color: #222222; 
+}
+.custom-navbar ~ .offcanvas .offcanvas-title {
+    color: #f7ef8a; 
 }
 
 p{
@@ -55,7 +69,7 @@ body {
     background-size: cover;
 }
 .text-box{
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 25px;
     margin-right: 25px;
     color: #ffffff;
@@ -106,7 +120,7 @@ footer div{
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: #ae8625 1px 2px 1px 2px;
+    box-shadow: #ae8625 1px 1px 1px 1px;
   }
 
 /*Hotel rooms page styles*/
