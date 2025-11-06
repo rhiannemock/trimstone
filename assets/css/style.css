@@ -77,7 +77,7 @@ body {
     background-color:transparent;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: #ae8625 1px 1px 1px 1px;
+    box-shadow: #ae8625 1px 1px 3px ;
 }
 iframe{
   border:2px solid white;
