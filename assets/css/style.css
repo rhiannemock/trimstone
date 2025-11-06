@@ -1,42 +1,46 @@
-/*font import merriweather*/
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wdth,wght@0,18..144,87.5,300..900;1,18..144,87.5,300..900&display=swap');
-
+/*font import merriweather/germania*/
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Rye&display=swap');
 
 /*font styles*/
-.merriweather-font-value {
-    font-family: "Merriweather", serif;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
-        font-size:1.2rem;
+.rye-regular {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-.alm {
+.almendra-sc-regular {
   font-family: "Almendra SC", serif;
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
 }
 
-.heading{
-  font-family: "Almendra SC", serif;
-  font-weight: 600;
-  font-style: normal;
-  color:#ae8625;
-  font-size:3rem;
-  text-shadow:#080000 1px 1px 2px;
+.gold-heading{
+  font-family:"Almendra SC", serif;
+  font-size:80px;
+  font-weight:900;
+  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%, #ae8625 80%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  text-shadow:2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255,255,255,0.2);
+}
+.gold-subheading{
+  font-family:"Almendra SC", serif;
+  font-size:40px;
+  font-weight:700;
+  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%, #ae8625 80%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  text-shadow:2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255,255,255,0.2);
 }
 
-.subheading{
-  font-family: "Almendra SC", serif;
-  font-weight: 600;
-  font-style: normal;
-  color: #ae8625;
-  font-size:1.5rem;
-  text-shadow:#080000 1px 1px 2px;
-}
 p{
   margin:0;
   padding:0;
+  font-size:18px;
+  font-family:'Almendra SC', serif;
+  font-weight:200;
 }
 
 /*main body styles*/
@@ -44,26 +48,22 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Merriweather', serif;
-    background-color: #f5f5f5;
     color: #333333;
     background-image: url("../../assets/images/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: #ae8625;
 }
 .text-box{
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 100px;
+    margin-left: 25px;
+    margin-right: 25px;
     color: #ffffff;
     text-align: center;
-    background-color: #222222;
-    
+    background-color:transparent;
     border-radius: 10px;
     padding: 10px;
-    box-shadow: #040404 3px 3px 6px;
+    box-shadow: #ae8625 1px 2px 1px 2px;
 }
 iframe{
   border:2px solid white;
@@ -71,10 +71,10 @@ iframe{
   max-height: 20vh;
   max-width:90vw;
   margin-top:20px;
-  margin-left:20px;
-  margin-right:20px;
+  margin-left:25px;
+  margin-right:25px;
   margin-bottom:20px;
-  box-shadow: #040404 3px 3px 6px;
+  box-shadow: #4c2507 3px 3px 6px;
 }
 
 footer{
@@ -83,7 +83,7 @@ footer{
   flex-direction: row;
   flex-wrap: wrap;
   width:100%;
-  background-color:#222222;
+  background-color: #222222;
   color:white;
 }
 footer p{
@@ -106,7 +106,7 @@ footer div{
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    box-shadow: #040404 3px 3px 6px;
+    box-shadow: #ae8625 1px 2px 1px 2px;
   }
 
 /*Hotel rooms page styles*/
