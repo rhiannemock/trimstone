@@ -79,6 +79,7 @@ body {
     padding: 10px;
     box-shadow: #ae8625 1px 1px 3px ;
 }
+/*interactive map*/
 iframe{
   border:2px solid white;
   border-radius:10px;
@@ -90,7 +91,7 @@ iframe{
   margin-bottom:20px;
   box-shadow: #4c2507 3px 3px 6px;
 }
-
+/*footer styles*/
 footer{
   display:flex;
   justify-content: space-around;
@@ -124,9 +125,20 @@ footer div{
 
 .gold-frame{
   border:2px solid #d2ac47;
-  box-shadow:0 0 0 5px #ae8625, 0 0 0 7px #b7973f,  0 0 0 8px #edc967;
-  padding:2px;
+  box-shadow:0 0 0 3px #ae8625, 0 0 0 4px #b7973f,  0 0 0 4px #edc967;
+  padding:1px;
 }
 
 
 /*Hotel rooms page styles*/
+.rooms-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+  }
+
+  
+@media screen and (min-width: 768px) {
+  
+}
