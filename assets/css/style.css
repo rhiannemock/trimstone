@@ -107,9 +107,9 @@ body {
     background-size: cover;
 }
 .text-box{
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
     color: #ffffff;
     text-align: center;
     background-color:transparent;
@@ -161,7 +161,7 @@ footer div{
 
 /*index page styles*/
 .manor-image{
-    width: 80vw;
+    width: 90vw;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
