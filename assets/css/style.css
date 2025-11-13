@@ -35,7 +35,10 @@
   text-shadow:2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255,255,255,0.2);
 }
 /*custom navbar settings*/
-
+.navbar.fixed-top.custom-navbar{
+  position:relative !important;
+  z-index: 10 !important;
+}
 .navbar.custom-navbar, 
 .custom-navbar {
     background-color: transparent !important; 
@@ -48,18 +51,37 @@
 }
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link {
+  position:relative !important;
+  z-index: 10 !important; 
     color: #d2ac47 !important;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); 
 }
 .offcanvas-header {
     color: #d2ac47; 
 }
+.navbar-toggler .navbar-toggler-icon {
+    position:relative !important;
+    z-index: 1000 !important;
+    color:#d2ac47 !important;
+}
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 30px; 
+  height: 30px; 
+  vertical-align: middle;
+}
+.navbar-toggler {
+  z-index: 1000 !important;
+  padding: 0.25rem 0.75rem; 
+}
 
 /* Social Icon Styles */
-.social-icons-top i {
+div .social-icons-top i {
+    width: 50%;
     font-size: 1.1rem; 
     color: #d2ac47; 
     transition: color 0.3s ease; 
+    z-index:-10;
 }
 .social-icons-top i:hover {
     color: #f7ef8a; 
