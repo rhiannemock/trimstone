@@ -16,7 +16,7 @@
 /*heading styles*/
 .gold-heading{
   font-family:"Almendra SC", serif;
-  font-size:50px;
+  font-size:60px;
   font-weight:700;
   background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%);
   -webkit-background-clip:text;
@@ -26,7 +26,7 @@
 }
 .gold-subheading{
   font-family:"Almendra SC", serif;
-  font-size:25px;
+  font-size:30px;
   font-weight:500;
   background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60% );
   -webkit-background-clip:text;
@@ -47,7 +47,7 @@
 .offcanvas,
 .offcanvas-header,
 .offcanvas-body {
-    background-color: #3c4f06;
+    background-color: #162b00 !important;
 }
 .custom-navbar .navbar-brand,
 .custom-navbar .nav-link {
@@ -107,7 +107,7 @@ body {
     background-size: cover;
 }
 .text-box{
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 20px;
     margin-right: 20px;
     color: #ffffff;
@@ -135,7 +135,7 @@ footer{
   flex-direction: row;
   flex-wrap: wrap;
   width:100%;
-  background-color: #3c4f06;
+  background-color: #3162b00;
   color:#d2ac47;
 }
 footer a{
