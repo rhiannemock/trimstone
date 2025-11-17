@@ -13,6 +13,8 @@
   font-weight: 400;
   font-style: normal;
 }
+
+
 /*heading styles*/
 .gold-heading{
   font-family:"Almendra SC", serif;
@@ -160,18 +162,23 @@ footer div{
 
 
 /*index page styles*/
-.manor-image{
-    width: 90vw;
+/*.manor-image{
+    width: 80vw;
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
 .gold-frame{
   border:2px solid #d2ac47;
   box-shadow:0 0 0 3px #ae8625, 0 0 0 4px #b7973f,  0 0 0 4px #edc967;
   padding:1px;
+}*/
+.index-image{
+    width: 90vw;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
