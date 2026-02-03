@@ -170,13 +170,29 @@ footer div{
     margin-right:20px;
 }
 
-/*Hotel rooms page styles*/
-.rooms-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    justify-items: center;
-  }
+/*cottages page styles*/
+.showcase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+.card {
+  background-color: rgba(22, 43, 0, 0.8);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: #4c2507 3px 3px 6px;
+}
+.card img {
+    width:100%;
+    height:auto;
+    border-radius:5px;
+}
+.card h4 {
+    margin-top:15px;
+    margin-bottom:15px;
+}
 
   
 @media screen and (min-width: 500px) {
