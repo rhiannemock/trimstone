@@ -192,6 +192,48 @@ footer div{
 }
 
 
-@media screen and (min-width: 900px) {
-    
+@media screen and (min-width: 800px) {
+/*index page styles*/
+.index-image{
+    width: 90vw;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:30px;
+    margin-right:30px;
+}  
+/*heading styles*/
+.gold-heading{
+  font-family:"Almendra SC", serif;
+  font-size:100px;
+  font-weight:700;
+  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  text-shadow:2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255,255,255,0.2);
+}
+.gold-subheading{
+  font-family:"Almendra SC", serif;
+  font-size:50px;
+  font-weight:500;
+  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60% );
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+  text-shadow:2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255,255,255,0.2);
+}
+
+}    
+
+@media screen and (min-width:1000px) {
+/*index page styles*/ 
+.index-image{
+    width: 80vw;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:80px;
+    margin-right:80px;
+}  
 }
