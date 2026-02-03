@@ -256,8 +256,8 @@ footer div{
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left:120px;
-    margin-right:120px;
+    margin-left:110px;
+    margin-right:110px;
 }}
 @media screen and (min-width:1300px) {
   /*index page styles*/
@@ -266,8 +266,8 @@ footer div{
     height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
-    margin-left:150px;
-    margin-right:150px;
+    margin-left:170px;
+    margin-right:170px;
 }
 /*heading styles*/
 .gold-heading{
