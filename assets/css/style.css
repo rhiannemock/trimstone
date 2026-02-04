@@ -20,7 +20,7 @@
   font-family:"Almendra SC", serif;
   font-size:60px;
   font-weight:700;
-  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%);
+  background:linear-gradient(to right, #ae8625 20%,#f7ef8a 20%, #d2ac47 40%, #edc967 40%);
   -webkit-background-clip:text;
   background-clip:text;
   color:transparent;
@@ -179,6 +179,7 @@ footer div{
   padding: 20px;
 }
 div.card {
+  width:30vw;
   background-color: #162b00;
   border-radius: 10px;
   padding: 15px;
