@@ -20,7 +20,7 @@
   font-family:"Almendra SC", serif;
   font-size:60px;
   font-weight:700;
-  background:linear-gradient(to right, #ae8625 20%,#f7ef8a 20%, #d2ac47 40%, #edc967 40%);
+  background:linear-gradient(to right, #ae8625 0%,#f7ef8a 20%, #d2ac47 40%, #edc967 60%);
   -webkit-background-clip:text;
   background-clip:text;
   color:transparent;
