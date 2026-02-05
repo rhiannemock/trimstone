@@ -175,27 +175,35 @@ footer div{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  padding: 20px;
+  gap: 10px;
+  padding:5px;
+  margin-top:25px;
 }
 div.card {
-  width:30vw;
+  flex: 0 0 45%;
   background-color: #162b00;
   border-radius: 10px;
-  padding: 15px;
+  padding: 10px;
   box-shadow: #e8cc5c 3px 3px 6px;
 }
 div.card img {
     width:100%;
     height:auto;
-    border-radius:5px;
+    border-radius:10px;
 }
 div.card h4 {
-    margin-top:15px;
-    margin-bottom:15px;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: 1.2rem;
 }
 
+.mobile-text{
+  font-size: 0.8rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  color: #f7ef8a;
   
+}
 @media screen and (min-width: 500px) {
 /*index page styles*/
 .index-image{
