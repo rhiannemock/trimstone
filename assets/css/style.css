@@ -36,6 +36,11 @@
   color:transparent;
   text-shadow:2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255,255,255,0.2);
 }
+btn-primary{
+  background-color:#d2ac47 !important;
+  border-color:#d2ac47 !important;
+  color:#162b00 !important;
+}
 /*custom navbar settings*/
 .navbar.fixed-top.custom-navbar{
   position:relative !important;
