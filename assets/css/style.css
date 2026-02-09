@@ -210,12 +210,8 @@ div.card h4 {
   color: #f7ef8a; 
 }
 
-.ftb{
-  padding-left:20px;
-  padding-right:20px;
- 
-  
-}
+
+
 @media screen and (min-width: 500px) {
 /*index page styles*/
 .index-image{
