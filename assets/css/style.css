@@ -25,6 +25,7 @@
   background-clip:text;
   color:transparent;
   text-shadow:2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255,255,255,0.2);
+  text-align:center;
 }
 .gold-subheading{
   font-family:"Almendra SC", serif;
@@ -35,6 +36,7 @@
   background-clip:text;
   color:transparent;
   text-shadow:2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255,255,255,0.2);
+  text-align:center;
 }
 .btn.btn-primary{
   background-color:#d2ac47 !important;
@@ -181,14 +183,14 @@ footer div{
   flex-wrap: nowrap;
   flex-direction:column;
   justify-content: center;
-  margin-left:10px;
-  margin-right:10px; 
+  margin-left:20px;
+  margin-right:20px; 
+  width:100%;
 }
 div.card {
-  width: 85%;
   background-color: #162b00;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
   box-shadow: #e8cc5c 3px 3px 6px;
   
 }
