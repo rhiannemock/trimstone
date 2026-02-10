@@ -178,7 +178,8 @@ footer div{
 /*cottages page styles*/
 .showcase {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  flex-direction:column
   justify-content: center;
   gap: 10px;
   padding:5px;
@@ -186,7 +187,7 @@ footer div{
   margin-bottom:25px;
 }
 div.card {
-  flex: 0 0 45%;
+  
   background-color: #162b00;
   border-radius: 10px;
   padding: 10px;
@@ -211,7 +212,7 @@ div.card h4 {
   text-align:center; 
 }
 
-h3{
+div h3{
   margin-top:5px;
   margin-bottom:5px;
   font-size: 1rem;
