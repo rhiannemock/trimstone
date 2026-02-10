@@ -179,7 +179,7 @@ footer div{
 .showcase {
   display: flex;
   flex-wrap: nowrap;
-  flex-direction:column
+  flex-direction:column;
   justify-content: center;
   gap: 10px;
   padding:5px;
