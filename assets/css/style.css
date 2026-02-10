@@ -181,8 +181,8 @@ footer div{
   flex-wrap: nowrap;
   flex-direction:column;
   justify-content: center;
-  margin-top:25px;
-  margin-bottom:25px;
+  margin-left:10px;
+  margin-right:10px; 
 }
 div.card {
   width: 85%;
