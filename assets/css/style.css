@@ -184,8 +184,11 @@ footer div{
   flex-direction:column;
   justify-content: center;
   margin-left:5vw;
-  margin-right:5vw; 
+  margin-right:5vw;
+  padding-left:5vw;
+  padding-right:5vw; 
   width:90%;
+  margin-bottom:20px;
 }
 div.card {
   background-color: #162b00;
