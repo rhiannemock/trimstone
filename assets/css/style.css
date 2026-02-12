@@ -16,6 +16,28 @@
   font-style: normal;
 }
 
+/* nav fix overflow*/
+.navbar, .container-fluid {
+    max-width: 100vw !important;
+    overflow-x: hidden !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+/* This fixes the Bootstrap "Row" overflow issue */
+.navbar .container-fluid {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.offcanvas {
+    max-width: 80% !important; /* Ensures the menu itself isn't too wide */
+}
+
+/* Prevents the body from shifting when the menu is active */
+body.offcanvas-active {
+    overflow: hidden;
+}
+
 html body {
     max-width: 100%;
     overflow-x: hidden; /* This hides any horizontal scrolling */
