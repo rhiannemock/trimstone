@@ -367,39 +367,7 @@ div.ftb-widget {
         margin-right: 80px;
     }
 
-    .showcase {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        margin-left: 2vw;
-        margin-right: 2vw;
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    div.card {
-        flex: 0 0 45%;
-        background-color: #162b00;
-        border-radius: 10px;
-        padding: 10px;
-        box-shadow: #e8cc5c 3px 3px 6px;
-    }
-
-    div.card img {
-        width: 100%;
-        height: auto;
-        border-radius: 10px;
-    }
-
-    .mobile-text {
-        font-size: 1.2rem;
-        font-family: 'Roboto', sans-serif;
-        font-weight: 200;
-        color: #f7ef8a;
-        text-align: center;
-    }
-}
+    
 
 @media screen and (min-width:1100px) {
 
