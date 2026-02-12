@@ -3,6 +3,9 @@
 * {
     box-sizing: border-box;
 }
+header, nav, main, footer, section, div {
+    max-width: 100%; /* Ensures no container can grow larger than the screen */
+}
 /*font styles*/
 .roboto {
   font-family: "Roboto", sans-serif;
