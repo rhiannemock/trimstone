@@ -197,13 +197,13 @@ p {
 
 /*interactive map*/
 
+
 iframe {
     border: 2px solid white;
     border-radius: 10px;
     max-height: 30vh;
-    width: calc(100% - 40px);
-    /* Use calc to stay within bounds */
-    margin: 20px auto;
+    width: 95%; /* Use percentage */
+    margin: 20px auto !important; 
     display: block;
     box-shadow: #4c2507 3px 3px 6px;
 }
@@ -244,11 +244,11 @@ footer div {
 
 /*index page styles*/
 .index-image {
-    width: 95%; /* Use percentage instead of vw */
+    width: 95%; 
     max-width: 1000px;
     height: auto;
     display: block;
-    margin: 20px auto !important; /* Auto margins center it safely */
+    margin: 20px auto !important; 
 }
    
 
