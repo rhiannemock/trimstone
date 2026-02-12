@@ -93,6 +93,53 @@ div {
     text-shadow: 0 0 10px rgba(247, 239, 138, 0.8); /* Golden glow */
 }
 
+/*button shine*/
+/* Container for the button to clip the shine */
+.btn.btn-primary {
+    position: relative;
+    overflow: hidden; /* This is vital - it keeps the shine inside the button */
+    background-color: #b28d26 !important;
+    border-color: #d6ab44 !important;
+    color: #162b00 !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+/* The "Shine" streak */
+.btn.btn-primary::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%; /* Starts off-screen to the left */
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(
+        to right, 
+        rgba(255, 255, 255, 0) 0%, 
+        rgba(255, 255, 255, 0.4) 50%, 
+        rgba(255, 255, 255, 0) 100%
+    );
+    transform: skewX(-30deg); /* Angles the light streak */
+    animation: button-shimmer 3s infinite; /* The timing of the shine */
+}
+
+/* The animation logic */
+@keyframes button-shimmer {
+    0% { left: -150%; }
+    30% { left: 150%; } /* Fast sweep across */
+    100% { left: 150%; } /* Long pause before repeating */
+}
+
+/* Hover State: Stop the animation and glow */
+.btn.btn-primary:hover {
+    background-color: #be9b26 !important;
+    transform: translateY(-2px); /* Slight lift */
+    box-shadow: 0 0 15px rgba(232, 204, 92, 0.6); /* Golden glow */
+}
+
+.btn.btn-primary:hover::before {
+    animation: none; /* Stops the auto-shimmer so it doesn't distract while clicking */
+}
 
 
 /*font styles*/
