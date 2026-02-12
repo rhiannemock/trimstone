@@ -144,7 +144,7 @@ p{
     padding: 10px;
 }
 /*interactive map*/
-iframe{
+
 iframe {
     border: 2px solid white;
     border-radius: 10px;
@@ -154,7 +154,7 @@ iframe {
     display: block;
     box-shadow: #4c2507 3px 3px 6px;
 }
-}
+
 /*footer styles*/
 footer{
   display:flex;
@@ -195,18 +195,6 @@ footer div{
     margin-right:20px;
 }
 
-
-/*.showcase {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 30px; 
-  margin: 0 auto 20px auto;
-  padding: 0 20px; 
-  width: 95%;
-}*/
-
 .showcase {
   display: flex;
   flex-direction: column;
@@ -246,14 +234,12 @@ div.card img {
   text-align:center; 
 }
 
-div h3{
-  margin-top:5px;
-  margin-bottom:5px;
-  font-size: 1rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 200;
-  color: #f7ef8a;
-  text-align:center; 
+.ftb-widget{
+  display:flex;
+ justify-content:center; 
+ width:100%;
+ padding:30px;
+ 
 }
 
 @media screen and (min-width: 500px) {
