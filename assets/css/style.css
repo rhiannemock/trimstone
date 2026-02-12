@@ -358,7 +358,7 @@ div.ftb-widget {
     margin: 0;              
     height: auto;          
   }
-}
+
 .mobile-text {
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
@@ -367,7 +367,7 @@ div.ftb-widget {
     text-align: center;
 }
   
-
+}
   
 
 @media screen and (min-width:1100px) {
