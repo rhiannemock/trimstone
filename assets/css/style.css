@@ -67,7 +67,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-image: url("../../assets/images/background8.jpg");
-    background-repeat: no-repeat;
+    /*background-repeat: no-repeat;*/
     background-attachment: fixed;
     background-size: cover;
     background-color: #406c11;
