@@ -259,7 +259,7 @@ div.card img {
   text-align:center; 
 }
 
-.ftb-widget{
+div.ftb-widget{
   display:flex;
  justify-content:center; 
  width:100%;
