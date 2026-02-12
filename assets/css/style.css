@@ -48,9 +48,16 @@ body {
   text-align:center;
 }
 .btn.btn-primary{
-  background-color:#a77c06 !important;
-  border-color:#ae8625 !important;
+  background-color:#b28d26 !important;
+  border-color:#d6ab44 !important;
   color:#162b00 !important;
+}
+
+
+/* Hover Effect */
+.btn.btn-primary:hover {
+    background-color: #be9b26; 
+    transform: scale(1.02);   
 }
 /*custom navbar settings*/
 .navbar.fixed-top.custom-navbar{
