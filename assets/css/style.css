@@ -276,6 +276,7 @@ div.card {
     width: fit-content;
     max-width: 100%;
     margin-bottom: 30px;
+    
     box-shadow: #e8cc5c 3px 3px 6px;
 }
 
@@ -283,7 +284,8 @@ div.card img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    border-color: #e8cc5c;
+    border:5px solid #e8cc5c;
+    
 }
 
 .mobile-text {
