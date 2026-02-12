@@ -359,6 +359,13 @@ div.ftb-widget {
     height: auto;          
   }
 }
+.mobile-text {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    color: #f7ef8a;
+    text-align: center;
+}
   
 
   
