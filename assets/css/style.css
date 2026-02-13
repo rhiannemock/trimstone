@@ -59,8 +59,8 @@ div {
 .btn.btn-primary {
     position: relative;
     overflow: hidden; /* This is vital - it keeps the shine inside the button */
-    background-color: #b28d26 !important;
-    border-color: #d6ab44 !important;
+    background-color: #d6ab44 !important;
+    border-color: #b28d26 !important;
     color: #162b00 !important;
     font-weight: 600;
     transition: all 0.3s ease;
@@ -187,15 +187,15 @@ body {
 }
 
 .btn.btn-primary {
-    background-color: #b28d26 !important;
-    border: 4px solid #d6ab44 !important;
+    background-color: #d6ab44 !important; 
+    border: 4px solid #b28d26 !important;
     color: #162b00 !important;
 }
 
 
 /* Hover Effect */
 .btn.btn-primary:hover {
-    background-color: #be9b26;
+    background-color: #efd16f;
     transform: scale(1.02);
 }
 
@@ -267,7 +267,7 @@ p {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #f7ef8a;
+    color: #fae27b;
 }
 
 /*main body styles*/
@@ -276,7 +276,6 @@ p {
     margin-top: 30px;
     margin-left: 10px;
     margin-right: 10px;
-    color: #ffffff;
     text-align: center;
     background-color: transparent;
     border-radius: 10px;
@@ -287,12 +286,12 @@ p {
 
 
 iframe {
-    border: 2px solid white;
     border-radius: 10px;
     max-height: 30vh;
     width: 100%;
     margin: 20px auto !important;
     display: block;
+    border: 3px solid #caab32;
     box-shadow: #4c2507 3px 3px 6px;
 }
 
@@ -319,7 +318,7 @@ footer a:hover {
 
 footer p {
     text-align: center;
-    margin: 0;
+    margin-top: 5px;
     padding: 0;
 }
 
@@ -383,14 +382,13 @@ div.card img {
     text-align: center;
 }
 
-div.ftb-widget2 {
+div.ftb-widget {
     display: flex;
     justify-content: center;
     width: 100%;
     padding: 15px;
     margin-top:30px;
-    border:4px solid #caab32;
-
+    border:3px solid #caab32;
 }
 
 @media screen and (min-width: 500px) {
