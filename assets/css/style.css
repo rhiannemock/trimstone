@@ -318,12 +318,12 @@ footer a:hover {
 
 footer p {
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0;
     padding: 0;
 }
 
 footer div {
-    padding-top: 20px;
+    padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
