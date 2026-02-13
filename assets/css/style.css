@@ -185,6 +185,17 @@ body {
     text-shadow: 2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255, 255, 255, 0.2);
     text-align: center;
 }
+.gold-subheading2 {
+    font-family: "Almendra SC", serif;
+    font-size: 25px;
+    font-weight: 400;
+    background: linear-gradient(to right, #ae8625 0%, #f7ef8a 20%, #d2ac47 40%, #edc967 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: 2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
 
 .btn.btn-primary {
     background-color: #d6ab44 !important; 
@@ -353,6 +364,7 @@ footer div {
     padding-left: 15px;
     padding-right: 15px;
     padding-bottom: 30px;
+    padding-top:30px;
     overflow-x: hidden;
     box-sizing: border-box;
 }
