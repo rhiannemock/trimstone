@@ -1,20 +1,79 @@
 /*font import merriweather/germania*/
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
-    box-sizing: border-box;
+/* Ritz-Style Header CSS */
+.header-top-utility{
+    display: flex;
+   /* justify-content: flex-start;*/
+    align-items: center;
+    padding: 10px 40px;
+    background-color: transparent;
+}
+.ritz-header {
+  width: 100%;
+  background-color: #162b00; /* Keeping your deep green */
+  border-bottom: 1px solid rgba(210, 172, 71, 0.3);
+  padding: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
-header,
-nav,
-main,
-footer,
-section,
-div {
-    max-width: 100%;
-    /* Ensures no container can grow larger than the screen */
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 40px;
 }
-/* NAV TOGGLE BUTTON*/
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content:space-around;
+  gap: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-links a {
+  text-decoration: none;
+  color: #d2ac47;
+  font-family: 'Almendra SC', serif;
+  font-size: 14px;
+  transition: opacity 0.3s;
+  text-align:center;
+}
+
+.nav-links a:hover {
+  opacity: 0.7;
+}
+
+/* Central Logo Area */
+.brand-central {
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.ritz-logo {
+  font-family: "Almendra SC", serif;
+  font-size: 30px;
+  margin: 0;
+  color: #cbb933;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.logo-sub {
+  font-size: 12px;
+  color: #d2ac47;
+  display: block;
+  margin-top: 5px;
+  text-decoration: none;
+}
+
 /* Target the button border */
 .navbar-toggler {
     border-color: #d2ac47 !important;
@@ -259,7 +318,7 @@ body {
 }
 
 /* Social Icon Styles */
-div .social-icons-top i {
+div .social-links i {
     width: 50%;
     font-size: 1.1rem;
     color: #d2ac47;
@@ -406,20 +465,21 @@ div.booking-widget {
     padding: 15px;
     margin-top: 15px;
 }
-@media screen and (min-width: 500px) {
+/* media queries for responsiveness */
 
+/* Mobile: Collapse into a centered list or burger */
+@media (max-width: 550px) {
+  .nav-links { display: none; } 
+  .nav-container { justify-content: space-between; }
 }
 
 
 @media screen and (min-width: 800px) {
-
-    
-
     /*heading styles*/
     .gold-heading {
         font-family: "Almendra SC", serif;
-        font-size: 100px;
-        font-weight: 700;
+        font-size: 60px;
+        font-weight: 500;
         background: linear-gradient(to right, #ae8625 0%, #f7ef8a 20%, #d2ac47 40%, #edc967 60%);
         -webkit-background-clip: text;
         background-clip: text;
@@ -429,8 +489,8 @@ div.booking-widget {
 
     .gold-subheading {
         font-family: "Almendra SC", serif;
-        font-size: 50px;
-        font-weight: 500;
+        font-size: 20px;
+        font-weight: 300;
         background: linear-gradient(to right, #ae8625 0%, #f7ef8a 20%, #d2ac47 40%, #edc967 60%);
         -webkit-background-clip: text;
         background-clip: text;
@@ -439,8 +499,6 @@ div.booking-widget {
     }
 
 }
-
-
 @media screen and (min-width: 1000px) {
   .showcase {
     display: flex;
@@ -468,24 +526,15 @@ div.booking-widget {
     color: #f7ef8a;
     text-align: center;
 }
-div.ftb-widget {
+div.booking-widget {
     display: flex;
     justify-content: center;
-    width: 45%;
+    width: 100%;
+}  
 }
   
-}
-  
 
-@media screen and (min-width:1100px) {
 
-    
-}
-
-@media screen and (min-width:1200px) {
-
-    
-}
 
 @media screen and (min-width:1300px) {
 
