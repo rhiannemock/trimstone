@@ -10,7 +10,7 @@
     background-color: transparent;
 }
 .ritz-header {
-  width: 100%;
+  width: 100vw;
   background-color: #162b00; /* Keeping your deep green */
   border-bottom: 1px solid rgba(210, 172, 71, 0.3);
   padding: 20px 0;
