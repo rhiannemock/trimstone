@@ -1,7 +1,7 @@
-/*font import merriweather/germania*/
+/*font import*/
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Ritz-Style Header CSS */
+/* Header CSS */
 .header-top-utility{
     display: flex;
    /* justify-content: flex-start;*/
@@ -11,7 +11,7 @@
 }
 .ritz-header {
   width: 100vw;
-  background-color: #162b00; /* Keeping your deep green */
+  background-color: transparent;
   border-bottom: 1px solid rgba(210, 172, 71, 0.3);
   padding: 20px 0;
   text-transform: uppercase;
