@@ -1,6 +1,28 @@
 /*font import*/
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+html body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Layer 1: The Dark Tint (60% black) | Layer 2: Your Image */
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.727), rgba(0, 0, 0, 0.6)), 
+        url("assets/images/untitled.png");
+    
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; /* Ensures the manor stays centered */
+    background-color: #406c11;   /* Fallback green */
+}
 /* Header CSS */
 .header-top-utility{
     display: flex;
@@ -200,28 +222,7 @@ a.nav-link {
 
 
 
-html body {
-    max-width: 100%;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-}
 
-
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* Layer 1: The Dark Tint (60% black) | Layer 2: Your Image */
-    background-image: 
-        linear-gradient(rgba(0, 0, 0, 0.727), rgba(0, 0, 0, 0.6)), 
-        url("../../assets/images/untitled.png");
-    
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center; /* Ensures the manor stays centered */
-    background-color: #406c11;   /* Fallback green */
-}
 
 /*heading styles*/
 .gold-heading {
