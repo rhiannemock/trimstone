@@ -409,7 +409,11 @@ footer div {
     width: 95%;
     height: auto;
     margin: 10px 10px 10px 10px;
+}
 
+.heading-text{
+    margin-top:20px;
+    margin-bottom:20px;
 }
 
 /*showcase*/
