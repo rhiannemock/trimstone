@@ -485,7 +485,7 @@ footer div {
 .heading-text {
     margin-top: 20px;
     margin-bottom: 20px;
-    margin: left 20px;
+    margin-left: 20px;
     margin-right:20px
 }
 
@@ -673,10 +673,17 @@ div.booking-widget {
 
     }
 
+    .heading-text {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right:20px
+}
+
     text-box {
         margin-top: 80px;
-        margin-left: 300px;
-        margin-right: 300px;
+        margin-left: 500px;
+        margin-right: 500px;
         text-align: center;
         /* Hex #324027 converted to RGBA at 80% opacity */
         background-color: rgba(50, 64, 39, 0.8);
