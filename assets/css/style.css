@@ -320,6 +320,65 @@ a.nav-link {
     z-index: 1000 !important;
     padding: 0.25rem 0.75rem;
 }
+/* Target the sliding menu container */
+.offcanvas {
+    background-color: rgba(50, 64, 39, 0.6) !important; /* Your signature green at 60% opacity */
+    backdrop-filter: blur(15px); /* Slightly stronger blur for the slide-out effect */
+    -webkit-backdrop-filter: blur(15px);
+    border-left: 1px solid rgba(210, 172, 71, 0.3); /* Thin gold edge */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Style the Header inside the toggle menu */
+.offcanvas-header {
+    border-bottom: 1px solid rgba(210, 172, 71, 0.2);
+    padding: 25px;
+}
+
+.offcanvas-title {
+    font-family: 'Almendra SC', serif; /* Keep the title in the manor font */
+    color: #beaa55;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* Style the Links inside the toggle menu */
+.offcanvas-body .nav-link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Light weight for elegance */
+    font-size: 18px;
+    color: #beaa55 !important;
+    padding: 15px 0 !important;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgba(210, 172, 71, 0.1); /* Subtle divider between links */
+    transition: all 0.3s ease;
+}
+
+.offcanvas-body .nav-link:hover {
+    padding-left: 10px !important; /* Small slide effect on hover */
+    color: #f7ef8a !important;
+}
+
+/* Fix the Close Button (X) color */
+.btn-close {
+    filter: invert(72%) sepia(19%) saturate(888%) hue-rotate(11deg) brightness(92%) contrast(85%); 
+    /* This filter tints the default black X to a soft gold color */
+    opacity: 0.8;
+}
+/* This targets every link, text item, and button inside the sliding menu */
+/* This targets the <ul> and <li> and <a> inside the sliding body */
+.offcanvas-body .navbar-nav .nav-item .nav-link {
+    font-family: 'Roboto', sans-serif !important;
+    font-weight: 300 !important;
+    text-transform: capitalize; /* Optional: makes it look softer than the header */
+    letter-spacing: 1px !important;
+    color: #beaa55 !important;
+}
+
+/* Also target the generic links in the body just in case */
+.offcanvas-body a {
+    font-family: 'Roboto', sans-serif !important;
+}
 
 /* Social Icon Styles */
 div .social-links i {
