@@ -378,33 +378,52 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #162b00;
+    
+    /* 20% opacity of #324027 */
+    background-color: rgba(50, 64, 39, 0.2) !important;
+    
+    /* Glassmorphism/Frosted Effect */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    
+    /* Subtle gold line to separate from the main content */
+    border-top: 1px solid rgba(210, 172, 71, 0.3);
+    
     color: #d2ac47;
+    padding: 40px 10px; /* More vertical space for a premium feel */
+    margin-top: 50px;
 }
 
 footer a {
     color: #d2ac47;
     text-decoration: none;
+    font-family: 'Almendra SC', serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
 }
 
 footer a:hover {
     color: #f7ef8a;
-    text-decoration: none;
+    text-shadow: 0 0 8px rgba(247, 239, 138, 0.5);
 }
 
 footer p {
     text-align: center;
-    margin-top: 0;
-    padding: 0;
+    margin: 0;
+    padding: 5px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300; /* Lighter weight looks cleaner */
+    font-size: 15px;
+    letter-spacing: 0.5px;
 }
 
 footer div {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
+    flex: 1; /* Helps columns spread out evenly */
+    min-width: 200px; /* Prevents columns from getting too squashed */
+    text-align: center;
 }
-
 /*index page styles*/
 .index-image {
     width: 95%;
@@ -494,11 +513,23 @@ div.booking-widget {
 
 /* Mobile: Collapse into a  burger */
 @media (max-width: 550px) {
-  .nav-links { display: none; } 
-  .nav-container { justify-content: space-between; }
+  .nav-links { 
+    display: none; } 
+  .nav-container { justify-content: space-between;
+ }
+
+
+div.index-page {
+        flex-direction: column; /* Ensures they stack */
+        margin-top: 20px;       /* Adds space at the very top of the section */
+    }
+
+    .index-image {
+        margin-top: 30px;       /* Specifically pushes the image down */
+        width: 90%;             /* Keeps the image from touching screen edges */
+        max-width: 100%;
+    }
 }
-
-
 @media screen and (min-width: 800px) {
     /*heading styles*/
     .gold-heading {
@@ -522,40 +553,48 @@ div.booking-widget {
         color: transparent;
         text-shadow: 2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255, 255, 255, 0.2);
     }
-    div.index-page{
-    display:flex;
-    flex:45 45;
-    flex-direction:row;
-    justify-content: space-around;
-    align-items: center;
-}
-.index-image{
-    width: 50%;
-    max-width: 100%;}
-    
-div.index-text {
-    width:45%;
+    div.index-page {
+        flex-direction: column; /* Ensures they stack */
+        margin-top: 20px;       /* Adds space at the very top of the section */
+    }
 
+    .index-image {
+        margin-top: 30px;       /* Specifically pushes the image down */
+        width: 90%;             /* Keeps the image from touching screen edges */
+        max-width: 100%;
+    }
+  
 }
-@media screen and (min-width: 1000px) {
-  .showcase {
+@media screen and (min-width: 1100px) {
+  div.index-page {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start; 
-    gap: 30px;               
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; /* Tighter gap to keep elements connected */
     width: 100%;
-    margin: 0 auto;
-  }
+    max-width: 95vw; /* Allows the layout to use 95% of the screen width */
+    margin: 40px auto; 
+    padding: 0;
+}
 
-  div.card {
-    flex: 0 0 45%;          
-    display: flex;
-    flex-direction: column; 
-    margin: 0;              
-    height: auto;          
-  }
+.index-image {
+    /* Flex-basis gives the image a "starting" size of 60% of the row */
+    flex: 0 0 60%; 
+    height: auto;
+    border-radius: 12px;
+    border: none !important;
+    padding:20px 20px 20px 20px;
+    
+}
+
+div.index-text {
+    /* Flex-basis gives the text 40% of the row */
+    flex: 0 0 40%; 
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
 
 .mobile-text {
     font-size: 1.2rem;
@@ -599,4 +638,4 @@ div.booking-widget {
         color: transparent;
         text-shadow: 2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255, 255, 255, 0.2);
     }
-} }
+}
