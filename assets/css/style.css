@@ -16,7 +16,7 @@ body {
     /* Layer 1: The Dark Tint (60% black) | Layer 2: Your Image */
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.727), rgba(0, 0, 0, 0.6)), 
-        url("assets/images/untitled.png");
+        url("../assets/images/untitled.png");
     
     background-attachment: fixed;
     background-size: cover;
