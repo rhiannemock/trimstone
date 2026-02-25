@@ -42,7 +42,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: #d2ac47;
+  color: #beaa55;
   font-family: 'Almendra SC', serif;
   font-size: 14px;
   transition: opacity 0.3s;
@@ -88,27 +88,28 @@ body.offcanvas-active {
   font-family: "Almendra SC", serif;
   font-size: 30px;
   margin: 0;
-  color: #cbb933;
+  color: #beaa55;
   line-height: 1;
   text-decoration: none;
 }
 
 .logo-sub {
   font-size: 12px;
-  color: #d2ac47;
+  color: #beaa55;
   display: block;
   margin-top: 5px;
   text-decoration: none;
 }
-
+    
 /* Target the button border */
-.navbar-toggler {
-    border-color: #d2ac47 !important;
-    border-width: 2px;
+a.nav-link {
+    color: #beaa55 !important;
+    padding: 5px 15px !important;
+
 }
 
 .navbar-toggler:focus {
-    box-shadow: 0 0 0 0.25rem rgba(210, 172, 71, 0.25) !important;
+    box-shadow: 0 0 0 0.25rem rgba(190, 170, 85, 0.25) !important;
 }
 
 /* Replace the dark SVG with a custom gold one */
@@ -118,7 +119,7 @@ body.offcanvas-active {
 
 /* Ensure the border matches exactly */
 .navbar-toggler {
-    border-color: #d2ac47 !important;
+    border-color: #beaa55 !important;
     outline: none !important;
     box-shadow: none !important; 
 }
@@ -140,8 +141,8 @@ body.offcanvas-active {
     position: relative;
     overflow: hidden; /* This is vital - it keeps the shine inside the button */
     background-color: transparent !important; /* We want the shine to be visible, so we make the background transparent */
-    border-color: #d2ac47 !important;
-    color: #d2ac47 !important;
+    border-color: #beaa55 !important;
+    color: #beaa55 !important;
     font-weight: 600;
     transition: all 0.3s ease;
 }
@@ -206,15 +207,20 @@ html body {
     padding: 0;
 }
 
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-image: url("../../assets/images/background8.jpg");
-    /*background-repeat: no-repeat;*/
+    /* Layer 1: The Dark Tint (60% black) | Layer 2: Your Image */
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+        url("../../assets/images/untitled.png");
+    
     background-attachment: fixed;
     background-size: cover;
-    background-color: #406c11;
+    background-position: center; /* Ensures the manor stays centered */
+    background-color: #406c11;   /* Fallback green */
 }
 
 /*heading styles*/
@@ -254,8 +260,8 @@ body {
 }
 
 .btn.btn-primary {
-    background-color: #d6ab44 !important; 
-    border: 4px solid #b28d26 !important;
+    background-color: transparent !important; 
+    border: 4px solid #beaa55 !important;
     color: #162b00 !important;
 }
 
@@ -288,18 +294,18 @@ body {
 .custom-navbar .nav-link {
     position: relative !important;
     z-index: 10 !important;
-    color: #d2ac47 !important;
+    color: #beaa55 !important;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
 }
 
 .offcanvas-header {
-    color: #d2ac47;
+    color: #beaa55 !important;
 }
 
 .navbar-toggler .navbar-toggler-icon {
     position: relative !important;
     z-index: 1000 !important;
-    color: #d2ac47 !important;
+    color: #beaa55 !important;
 }
 
 .navbar-toggler-icon {
@@ -318,7 +324,7 @@ body {
 div .social-links i {
     width: 50%;
     font-size: 1.1rem;
-    color: #d2ac47;
+    color: #beaa55;
     transition: color 0.3s ease;
     z-index: -10;
 }
@@ -334,7 +340,7 @@ p {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #fae27b;
+    color: #beaa55;
 }
 
 /*main body styles*/
@@ -437,14 +443,14 @@ div.card {
     width: fit-content;
     max-width: 100%;
     margin-top: 30px;
-    box-shadow: #e8cc5c 3px 3px 6px;
+    box-shadow: #beaa55 3px 3px 6px;
 }
 
 div.card img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    border: 4px solid #caab32;
+    border: 4px solid #beaa55;
 
 }
 
@@ -452,7 +458,7 @@ div.card img {
     font-size: 0.8rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    color: #f7ef8a;
+    color: #beaa55;
     text-align: center;
 }
 
@@ -576,4 +582,4 @@ div.booking-widget {
         color: transparent;
         text-shadow: 2px 2px 4px rgba(128, 87, 16, 0.789), 0px 0px 5px rgba(255, 255, 255, 0.2);
     }
-}
+} }
