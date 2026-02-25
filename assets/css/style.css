@@ -405,18 +405,11 @@ footer div {
 }
 
 /*index page styles*/
-div.index-image {
+.index-image {
     width: 95%;
     height: auto;
+    margin: 10px 10px 10px 10px;
 
-}
-
-.index-page{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 20px, 20px;
 }
 
 /*showcase*/
