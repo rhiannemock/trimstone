@@ -322,7 +322,7 @@ a.nav-link {
 }
 /* Target the sliding menu container */
 .offcanvas {
-    background-color: rgba(50, 64, 39, 0.6) !important; /* Your signature green at 60% opacity */
+    background-color: rgba(50, 64, 39, 0.3) !important; /* Your signature green at 30% opacity */
     backdrop-filter: blur(15px); /* Slightly stronger blur for the slide-out effect */
     -webkit-backdrop-filter: blur(15px);
     border-left: 1px solid rgba(210, 172, 71, 0.3); /* Thin gold edge */
