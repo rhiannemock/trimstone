@@ -482,6 +482,7 @@ footer div {
     margin: 10px 10px 10px 10px;
 }
 
+
 .heading-text {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -663,6 +664,10 @@ div.booking-widget {
         padding: 0;
     }
 
+    .quick-margin {
+        margin: 0 30px;
+        /* Adds horizontal spacing without affecting vertical flow */
+    }
     .index-image {
         /* Flex-basis gives the image a "starting" size of 60% of the row */
         flex: 0 0 60%;
@@ -682,8 +687,7 @@ div.booking-widget {
 
     text-box {
         margin-top: 80px;
-        margin-left: 500px;
-        margin-right: 500px;
+        width:70%;
         text-align: center;
         /* Hex #324027 converted to RGBA at 80% opacity */
         background-color: rgba(50, 64, 39, 0.8);
